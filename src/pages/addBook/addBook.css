@@ -1,0 +1,60 @@
+.book{
+    flex: 4;
+}
+.bookContainer{
+    display: flex;
+
+    flex-direction: column;
+}
+.bookBack{
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+}
+.bookButtonTitle{
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
+    margin-left: 5px;
+}
+.bookTitle{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.bookInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.bookInputField{
+    width: 600px;
+    height: 60px;
+    padding: 10px;
+    margin: 20px 10px;
+}
+.bookSave{
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 7px;
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+}
