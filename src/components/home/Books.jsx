@@ -23,7 +23,7 @@ export default function Books() {
     .then((response) => response.json())
     .then((bks) => setBook(bks));
   }
-  useEffect(()=>getBooks,[]);
+  useEffect(()=>{getBooks()},[]);
 
   return (
     <div className='books'>
